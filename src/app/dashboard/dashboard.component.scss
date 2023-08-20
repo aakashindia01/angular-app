@@ -1,0 +1,39 @@
+/* dashboard.component.scss */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1e2a3a; /* Dark blue background */
+    color: #ffffff;
+  }
+  
+  .header {
+    background-color: #283c4f; /* Slightly lighter blue */
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 24px;
+  }
+  
+  .sidebar {
+    background-color: #283c4f; /* Slightly lighter blue */
+    padding: 16px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 24px;
+  }
+  
+  .gold-color {
+    color: #ffd700; /* Gold */
+  }
+  
+  .blue-color {
+    color: #2196f3; /* Blue */
+  }
+  

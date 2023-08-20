@@ -1,0 +1,10 @@
+/* sidebar.component.scss */
+.mat-list-item {
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+  .mat-list-item.active {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  

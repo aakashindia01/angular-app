@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: angular-app-pod
+spec:
+  containers:
+    - name: angular-app
+      image: 49da1d8db91d
+      ports:
+        - containerPort: 4200
+
